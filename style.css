@@ -1,11 +1,41 @@
 div{
     background-color: red;
+    margin: 5px;
+    border: 2px solid black;
 }
 
 p{
     background-color: green;
+    clear: both;
 }
 
 #blue-background{
     background-color: blue;
+}
+
+#inline-block-1{
+    display: inline-block;
+    width: 45%;
+}
+
+#inline-block-2{
+    display: inline-block;
+    width:45%;
+    
+}
+
+#float-right{
+    float:right;
+    width: 20%;
+   
+}
+
+#float-left{
+    float: left;
+    width: 20%;
+}
+
+#float-center{
+    float: left;
+    width: 50%;
 }
