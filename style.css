@@ -6,7 +6,7 @@ div{
 
 p{
     background-color: green;
-    clear: both;
+    clear:both;
 }
 
 #blue-background{
@@ -38,4 +38,43 @@ p{
 #float-center{
     float: left;
     width: 50%;
+}
+
+#clear-left{
+    clear: left;
+}
+
+#clear-right{
+    clear: right;
+}
+
+header{
+    border: 2px solid black;
+    background-color: red;
+    height: 100px;
+}
+nav{
+    border: 2px solid black;
+    background-color: green;
+    height: 100px;
+}
+aside{
+    border: 2px solid black;
+    background-color: blue;
+    float: left;
+    height: 200px;
+   width: 10%;
+}
+section{
+    border: 2px solid black;
+    background-color: yellow;
+    float: left;
+    height: 200px;
+    width: 80%;
+}
+footer{
+    border: 2px solid black;
+    background-color: purple;
+    height: 100px;
+    clear: both;
 }
